@@ -1,0 +1,19 @@
+.inputElement {
+  width: 100%;
+  color: var(--darkGrey);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.inputElement > input {
+  width: 100%;
+  border: none;
+  padding: 0.2rem;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+  padding: 0.4rem 1rem;
+  border: solid var(--border-input) 1px;
+}
+.inputElement > input:focus-visible {
+  outline-color: var(--pink);
+}

@@ -1,0 +1,67 @@
+.mainElement  {
+  background-color: transparent;
+  border-radius: 0 2rem;
+  
+}
+
+
+.form {
+  background-color: white;
+  align-self: start;
+}
+
+.formSectionTitle {
+  color: var(--lightGrey);
+  background-color: var(--primary-color);
+  padding: 1rem 2rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0 2rem;
+  
+}
+
+.photoButton {
+  display: none;
+}
+
+.formSectionTitle > h2 {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.formSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formSection > span {
+  margin: 1.5rem 0;
+}
+
+.formSubsection {
+  color: var(--darkGrey);
+  width: 100%;
+  padding: 0 2rem;
+  margin: 1.5rem 0;
+  display: grid;
+  row-gap: 1rem;
+}
+
+.formSubsectionTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: var(--darkGrey) solid 1px;
+}
+
+.materialButton {
+  cursor: pointer;
+}
+
+.materialButton:hover {
+  color: var(--pink);
+}

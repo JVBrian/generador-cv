@@ -1,0 +1,95 @@
+.preview {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 35% 65%;
+  grid-template-rows: 15rem 1fr;
+  color: var(--darkGrey);
+  font-size: 0.9rem;
+  min-height: 100vh;
+  align-self: start;
+}
+
+.previewHeader {
+  background-color: var(--color-title);
+  color: var(--lightGrey);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0;
+  margin-top: 1.5rem;
+  border-radius: 2rem;
+}
+
+.previewHeader > h3 {
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.headerPreview {
+  width: 65%;
+  margin-left: 16.4rem;
+  background-color: var(--color-white);
+  grid-column: span 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.headerPreview > h2 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+.headerPreview > h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.headerPreview > h4 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.sideBarPreview {
+  background-color: var(--color-sidebar);
+  padding: 1.5rem 1rem;
+  margin-top: -15rem;
+  font-size: 12px;
+}
+.image {
+  height: 14rem;
+  background-color: var(--color-title);
+  margin-bottom: 1.5rem;
+  border-radius: 50%;
+}
+.image > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+  border-radius: 50%;
+}
+.sidebarListElement {
+  display: flex;
+  align-items: center;
+  margin-top: 1.3rem;
+}
+.sidebarListElement > span {
+  color: var(--darkGrey);
+  margin-right: 0.5rem;
+}
+
+/*MAIN STYLING*************************************************/
+.mainPreview {
+  padding: 0 1rem 1.5rem 1rem;
+}
+.mainExperienceCard {
+  background-color: var(--color-white);
+  padding: 1rem;
+  margin-top: 1rem;
+}
+.mainExperienceTitle {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+}
