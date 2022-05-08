@@ -1,7 +1,7 @@
 import React from "react";
 import Form from "./components/form/Form";
-import Header from "./components/Header/Header";
-import Preview from "./components/Preview/Preview";
+import Header from "./components/header/Header";
+import Preview from "./components/preview/Preview";
 
 class App extends React.Component {
   constructor(props) {
